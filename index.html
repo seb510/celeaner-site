@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kiwi</title>
+	<meta name="discription" content="Jesteśmy firmą sprzątającą, która sprawia, że ​​Twój dom jest czysty i wygodny.">
+	<meta name="kaywords" content="Firmą sprzątającą, która sprawia, że ​​Twój dom">
+	<!-- Fonts -->
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/kiwiTitle.png">
+</head>
+<body>
+    <!--Header-->
+	<header id="header" class="header">
+        <div class="container">
+            <div id="navigation" class="navigation d-flex justify-content-beatween">
+                <div class="logo">
+                    <a href="#" class="logo__round">
+                        <span class="logo__first">Kiwi</span>
+                    </a>
+                    <span class="logo__second">Firma sprzątająca</span>
+                </div>
+                <div class="toggle" onclick="toggleMenu();"></div>
+                <nav class="menu">
+                    <ul class="menu__list d-flex justify-content-beatween">
+                        <li>
+                            <a href="#back"onclick="toggleMenu();">
+                                Strona główna
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#services"onclick="toggleMenu();">
+                                Nasze usługi
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#informacja"onclick="toggleMenu();">
+                                Informacja
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#środki"onclick="toggleMenu();">
+                                Środki
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="phone">
+                    <a href="tel:+48732080704" class="phone__number">
+                        +4 (873)208-07-04
+                    </a>
+                </div>
+            </div>   
+        </div>
+    </header>
+    <!--Back-->
+    <section id="back" class="back">
+        <div class="container">
+            <div class="offer lighting">
+                <p class="offer__text">
+                    Oczyścimy wszystko, by błyszczeć
+                </p>
+                <h1 class="offer__title">
+                    Uczyń swoje życie czystszym
+                </h1>
+                <p class="offer__text offer__text_about">
+                    Jesteśmy firmą sprzątającą, która sprawia, że ​​Twój dom jest czysty i wygodny.
+                </p>
+                <a href="#" class="offer__btn">Na zamówienie</a>
+                <a href="#services" id ="offer__row" class="offer__arrow">&#8595;</a>
+            </div>
+        </div>
+    </section>
+    <!--Services-->
+    <section id="services" class="services">
+        <div class="container">   
+            <h2 class="title">
+                Nasze usługi
+            </h2>
+            <div class="propouses d-flex justify-content-beatween">
+                <div class="propous">
+                    <img src="img/kiwi.png" alt="Kiwi" class="propous__img_icon">
+                    <div class="propous__info">
+                        <h3 class="propous__title">
+                            Wspomagające czyszczenie
+                        </h3>
+                        <p class="propous__text">
+                            Wspomagające czyszczenie Łatwe 
+                            czyszczenie w celu utrzymania mieszkania
+                            w czystości na bieżąco
+                        </p>
+                    </div>
+                </div>
+                <div class="propous flex-reverse">
+                    <div class="propous__info text-right">
+                        <h3 class="propous__title">
+                            Czyszczenie po naprawie
+                        </h3>
+                        <p class="propous__text">
+                            Poprzedni koszt za 1 kwadrat: 35 PLN -120 PLN, bezpośrednio zależy od stopnia złożoności.
+                        </p>
+                    </div>
+                    <img src="img/kiwi.png" alt="Kiwi" class="propous__img_icon">
+                </div>
+            </div>
+            <div class="propouses d-flex justify-content-beatween">
+                <div class="propous">
+                    <img src="img/kiwi.png" alt="Kiwi" class="propous__img_icon">
+                    <div class="propous__info">
+                        <h3 class="propous__title">
+                            Mycie okien
+                        </h3>
+                        <p class="propous__text">
+                            Możesz dodać spłukiwania okien do czyszczenia podstawowego lub konserwacyjnego.
+                        </p>
+                    </div>
+                </div>
+                <div class="propous flex-reverse">
+                    <div class="propous__info text-right">
+                        <h3 class="propous__title">
+                            Ogólne sprzątanie mieszkań
+                        </h3>
+                        <p class="propous__text">
+                            Ogólne sprzątanie mieszkania od 35 PLN za mkw. 
+                            Zespół przyjdzie do ciebie, zabierz ze sobą wszystkich prof.
+                        </p>
+                    </div>
+                    <img src="img/kiwi.png" alt="Kiwi" class="propous__img_icon">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Informacja-->
+    <section id="informacja" class="informacja">
+        <div class="container">
+            <h2 class="title">
+                Informacja
+            </h2>      
+            <div class="slider-wrapper">
+                <div class="slide slide__first lighting">
+                    <h1 class="offer__title">
+                        Uczyń swoje życie czystszym
+                    </h1>
+                    <p class="offer__text offer__text_about">
+                        Jesteśmy firmą sprzątającą, która sprawia, że ​​Twój dom jest czysty i wygodny.
+                    </p>
+                </div>
+                <div class="slide slide__second lighting">
+                    <h1 class="offer__title">
+                        Uczyń swoje życie czystszym
+                    </h1>
+                    <p class="offer__text offer__text_about">
+                        Jesteśmy firmą sprzątającą, która sprawia, że ​​Twój dom jest czysty i wygodny.
+                    </p>
+                </div>
+                <div class="slide slide__third lighting">
+                    <h1 class="offer__title">
+                        Uczyń swoje życie czystszym
+                    </h1>
+                    <p class="offer__text offer__text_about">
+                        Jesteśmy firmą sprzątającą, która sprawia, że ​​Twój dom jest czysty i wygodny.
+                    </p>
+                </div>
+                <div class="slide slide__four lighting">
+                    <h1 class="offer__title">
+                        Uczyń swoje życie czystszym
+                    </h1>
+                    <p class="offer__text offer__text_about">
+                        Jesteśmy firmą sprzątającą, która sprawia, że ​​Twój dom jest czysty i wygodny.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--środki-->
+    <section id="środki" class="środki">
+        <div class="container">   
+            <h2 class="title">
+                Plyne
+            </h2>
+            <div class="propouses d-flex justify-content-beatween">
+                <div class="propous">
+                    <img src="img/kiwi.png" alt="Kiwi" class="propous__img_icon">
+                    <div class="propous__info">
+                        <h3 class="propous__title">
+                            Wspomagające czyszczenie
+                        </h3>
+                        <p class="propous__text">
+                            Wspomagające czyszczenie Łatwe 
+                            czyszczenie w celu utrzymania mieszkania
+                            w czystości na bieżąco
+                        </p>
+                    </div>
+                </div>
+                <div class="propous flex-reverse">
+                    <div class="propous__info text-right">
+                        <h3 class="propous__title">
+                            Czyszczenie po naprawie
+                        </h3>
+                        <p class="propous__text">
+                            Poprzedni koszt za 1 kwadrat: 35 PLN -120 PLN, bezpośrednio zależy od stopnia złożoności.
+                        </p>
+                    </div>
+                    <img src="img/kiwi.png" alt="Kiwi" class="propous__img_icon">
+                </div>
+            </div>
+            <div class="propouses d-flex justify-content-beatween">
+                <div class="propous">
+                    <img src="img/kiwi.png" alt="Kiwi" class="propous__img_icon">
+                    <div class="propous__info">
+                        <h3 class="propous__title">
+                            Mycie okien
+                        </h3>
+                        <p class="propous__text">
+                            Możesz dodać spłukiwania okien do czyszczenia podstawowego lub konserwacyjnego.
+                        </p>
+                    </div>
+                </div>
+                <div class="propous flex-reverse">
+                    <div class="propous__info text-right">
+                        <h3 class="propous__title">
+                            Ogólne sprzątanie mieszkań
+                        </h3>
+                        <p class="propous__text">
+                            Ogólne sprzątanie mieszkania od 35 PLN za mkw. 
+                            Zespół przyjdzie do ciebie, zabierz ze sobą wszystkich prof.
+                        </p>
+                    </div>
+                    <img src="img/kiwi.png" alt="Kiwi" class="propous__img_icon">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-wraper d-flex justify-content-around">
+                <a href="#header" class="logo">
+                    <span class="logo__round">
+                        <span class="logo__first">Kiwi</span>
+                    </span>
+                    <span class="logo__second">Firma sprzątająca</span>
+                </a> 
+                <div class="footer-contact">
+                    <h3 class="footer-contact__title footer-title">
+                        Kontakty
+                    </h3>
+                    <ul class="footer-contact__list">
+                        <li class="footer-contact__item d-flex">
+                            <img src="img/sticker-map.svg" class="footer-contact__icon" alt="Stikker address">
+                            <p class="footer-contact__text footer-list">
+                                ul. Świdnicka 14a/3 
+                                55-080 Kąty Wrocławskie
+                            </p>
+                        </li>
+                        <li class="footer-contact__item d-flex">
+                            <img src="img/phone-icon2.svg" class="footer-contact__icon" alt="Stikker phone">
+                            <div class="footer-contact__number footer-list">
+                                <a href="tel:+48732080704" class="footer-contact__text">
+                                    + 4 (873) 208-07-04
+                                </a>
+                                <a href="tel:+48775672816" class="footer-contact__text">
+                                    + 4 (877) 567-28-16
+                                </a>
+                            </div>
+                        </li>
+                        <li class="footer-contact__item d-flex">
+                            <img src="img/envelope.svg" class="footer-contact__icon" alt="Stikker email">
+                            <a href="mailto:biuro@sprzataniedeluxe.pl" class="footer-contact__text footer-list" rel="nofollow" target="_blank">
+                                biuro@sprzataniedeluxe.pl
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3 class="footer-contact__title footer-title">
+                        Portale społecznościowe
+                    </h3>
+                    <ul class="footer-wrap__soc">
+                        <li class="footer-wrap__item">
+                            <!--noindex-->
+                            <a href="https://www.facebook.com/12343" class="footer-wrap__link link" rel="nofollow" target="_blank">
+                                <img src="img/facebook.png" alt="Facebook">
+                            </a>
+                            <!--/noindex-->
+                        </li>
+                        <li class="footer-wrap__item">
+                            <!--noindex-->
+                            <a href="https://m.me/12343" class="footer-wrap__link link" rel="nofollow" target="_blank">
+                                <img src="img/whatsapp.png" alt="Wahatsapp">
+                            </a>
+                            <!--/noindex-->
+                        </li>
+                        <li class="footer-wrap__item">
+                            <!--noindex-->
+                            <a href="https://www.instagram.com/12343" class="footer-wrap__link link" rel="nofollow" target="_blank">
+                                <img src="img/instagram.png" alt="Instagram">
+                            </a>
+                            <!--/noindex-->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-line">
+                <div class="footer-line__row">
+                </div>
+                <p class="footer-line__info">
+                    © 2020 Wszelkie prawa zastrzeżone.
+                </p>
+            </div>
+        </div>
+    </footer>
+   
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
