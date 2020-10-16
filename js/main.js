@@ -1,17 +1,9 @@
 // Скрипт для плавного перехода для якорных ссылок по сайту
-/*$(document).ready(function(){
-    $("#navigation").on("click","a", function (event) {
-        event.preventDefault();
-        var id  = $(this).attr('href'),
-            top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top}, 1200);
-    }); 
-});
-*/
+
 //Header scroll
 window.addEventListener('scroll', function() {
     let header = document.querySelector('header');
-    header.classList.toggle('sticky', window.scrollY > 0);
+    header.classList.toggle('sticky', window.scrollY > 0 );
 });
 
 //Navigation menu

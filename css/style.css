@@ -10,6 +10,7 @@
 
 body {
 	color: #383838;
+	overflow-x: hidden;
 }
 
 p {
@@ -124,7 +125,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
     top: 0;
     left: 0;
     width: 100%;
-	padding: 20px 100px;
+	padding: 20px 90px;
 	background-color: #fff;
     z-index: 10;
     transition: 0.5s;
@@ -141,7 +142,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 }
 
 .header.sticky {
-    padding: 20px 100px;
+    padding: 20px 90px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -179,7 +180,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	top: 30%;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
-	padding: 0px 40px 45px;
+	padding: 0px 25px 45px;
 	font-size: 16px;
 }
 
@@ -208,7 +209,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 .phone {
 	background-color: transparent;
 	position: relative;
-	padding: 0 0 0 57px;
+	padding: 0 0 0 40px;
 }
 
 .phone:before {
@@ -216,7 +217,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	text-align: center;
 	display: block;
 	background-repeat: no-repeat;
-	top: -10%;
+	top: -20%;
 	left: 0%;
 	position: absolute;
 }
@@ -450,7 +451,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	}
 
 	.menu__list a {
-		padding: 0px 25px 45px;
+		padding: 0px 18px 45px;
 	}
 
 	.offer__title {
