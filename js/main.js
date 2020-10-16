@@ -32,3 +32,11 @@ $('.slider-wrapper').slick({
               ]    
 });
 
+// Функция Modal Window
+$('.offer__btn').on('click', function () {
+    $('.window').toggle();
+});
+
+$('.window__closed').on('click', function () {
+    $('.window').hide();
+});
