@@ -10,7 +10,6 @@
 
 body {
 	color: #383838;
-	overflow-x: hidden;
 }
 
 p {
@@ -254,6 +253,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 }
 
 .offer__text_info {
+	padding: 0 10px;
 	text-align: center;
 	font-family: 'Loved by the King', cursive;
 	font-size: 18px;
@@ -557,6 +557,7 @@ textarea {
 		flex-direction: column;
 		
 	}
+
 	.menu{
         position: fixed;
         top: 100px;
