@@ -205,6 +205,10 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	width: 100%;
 }
 
+.phone__menu {
+	display: none;
+}
+
 .phone {
 	background-color: transparent;
 	position: relative;
@@ -313,6 +317,10 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 .propous__info {
 	max-width: 250px;
 	margin: 0 10px;
+}
+
+.propous__text span {
+	display: inline-block;
 }
 
 .text-right {
@@ -627,6 +635,10 @@ textarea {
 
 	.phone {
 		display: none;
+	}
+
+	.phone__menu {
+		display: block;
 	}
 
 	.lighting {
