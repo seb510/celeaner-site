@@ -275,6 +275,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	border: 1px solid #54c90c61;
 	border-radius: 45px;
 	cursor: pointer;
+	transition: all .3s;
 }
 
 .offer__btn:hover, .offer__arrow:hover {
