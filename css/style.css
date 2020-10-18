@@ -179,7 +179,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	top: 30%;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
-	padding: 0px 25px 45px;
+	padding: 0 25px 45px;
 	font-size: 16px;
 }
 
@@ -220,8 +220,8 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	text-align: center;
 	display: block;
 	background-repeat: no-repeat;
-	top: -20%;
-	left: 0%;
+	top: -25%;
+	left: 0;
 	position: absolute;
 }
 
@@ -534,7 +534,7 @@ textarea {
 	}
 
 	.menu__list a {
-		padding: 0px 18px 45px;
+		padding: 0 18px 45px;
 	}
 
 	.offer__title {
@@ -564,7 +564,20 @@ textarea {
 	
 	.menu__list {
 		flex-direction: column;
-		
+	}
+
+	.menu__list a {
+		padding-bottom: 10px;
+		margin-bottom: 50px;
+	}
+
+	.menu__list a:after {
+		margin-top: 10px;
+	}
+
+	.menu__list a:hover:after,
+	.menu__list a:focus:after {
+		width: 80%;
 	}
 
 	.menu{
@@ -589,7 +602,6 @@ textarea {
     .header ul li a {
         color: #111;
         font-size: 18px;
-        margin: 10px;
     }
 
 	.toggle, .toggle.active {
@@ -711,7 +723,6 @@ textarea {
 		font-size: 14px;
 		margin-top: 15px
 	}
-
 }
 
 /* 320 - 576 px */
@@ -728,7 +739,6 @@ textarea {
 	.window__form {
 		width: 85%;
 	}
-
 }
 
 
