@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3455f2b3-2320-44e1-acc6-cfbb61d8f199" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603100455683</updated>
       <workItem from="1603100458101" duration="62000" />
-      <workItem from="1603365142170" duration="2764000" />
+      <workItem from="1603365142170" duration="3287000" />
+      <workItem from="1603480105207" duration="311000" />
     </task>
     <servers />
   </component>
@@ -78,6 +78,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="142" y="236" key="#Notifications" timestamp="1603100503799">
