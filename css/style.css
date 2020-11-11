@@ -35,6 +35,10 @@ h1 {
 	color: #fff;
 }
 
+h2 {
+	font-size: 40px;
+}
+
 h3 {
 	font-size: 18px;
 }
@@ -86,7 +90,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 .lighting {
 	position: relative;
 	text-align: center;
-	padding: 110px 0 40px;
+	padding: 100px 0 40px;
 }
 
 .lighting:before {
@@ -243,7 +247,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	font-size: 40px;
 	text-transform: uppercase;
 	color: #383838;
-	margin-top: -4px;
+	margin: 20px auto;
 }
 
 .offer__text {
@@ -253,12 +257,12 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 .offer__text_about {
 	max-width: 585px;
 	font-size: 17px;
-	margin: 9px auto 33px;
+	margin: 0 auto ;
 }
 
 .offer__text_info {
 	padding: 0 10px;
-	margin: 0 auto;
+	margin: 70px auto;
 	text-align: center;
 	max-width: 600px;
 	font-family: 'Loved by the King', cursive;
@@ -651,7 +655,7 @@ textarea {
 	.lighting {
 		position: relative;
 		text-align: center;
-		padding: 55px 0 30px;
+		padding: 30px 0 30px;
 	}
 
 	.offer__text {
@@ -663,8 +667,11 @@ textarea {
 		font-size: 28px;
 	}
 
-	.text {
+	h2.offer__title {
 		font-size: 25px;
+	}
+	.text {
+		font-size: 23px;
 	}
 
 	.proposes, .propous {
