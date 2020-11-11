@@ -1,9 +1,10 @@
 // Скрипт для плавного перехода для якорных ссылок по сайту
 
 //Header scroll
-window.addEventListener('scroll', function() {
-    let header = document.querySelector('header');
-    header.classList.toggle('sticky', window.scrollY > 0 );
+$("body").on('click', '[href*="#"]', function(e){
+    var fixed_offset = 140;
+    $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1200);
+    e.preventDefault();
 });
 
 //Navigation menu

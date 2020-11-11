@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
 	font: 400 14px 'Montserrat', sans-serif;
-    scroll-behavior: smooth;
 }
 
 body {
@@ -347,7 +346,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 
 .item {
 	margin: 0 10px;
-	height: 70vh;
+	height: 60vh;
 }
 
 .slide__first:before {
@@ -359,7 +358,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 }
 
 .slide__third:before {
-    background: #d2e7e9 url("../img/Apart.webp") no-repeat center / cover;
+    background: #d2e7e9 url("../img/kiwiroom.png") no-repeat center / cover;
 }
 
 .slide__four:before {
