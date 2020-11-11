@@ -10,7 +10,6 @@
 
 body {
 	color: #383838;
-	overflow-x: hidden;
 }
 
 p {
@@ -98,7 +97,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
     right: 0;
     bottom: 0;
     display: block;
-    opacity: .4;
+    opacity: .2;
 	z-index: -1;
 }
 
@@ -252,7 +251,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 }
 
 .offer__text_about {
-	max-width: 545px;
+	max-width: 585px;
 	font-size: 17px;
 	margin: 9px auto 33px;
 }
@@ -263,7 +262,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	text-align: center;
 	max-width: 600px;
 	font-family: 'Loved by the King', cursive;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .offer__btn {
@@ -342,22 +341,13 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	justify-content: center;
 }
 
-.slider-wrapper {
-	width: 100%;
-	position: relative;
-}
-
-.slide {
+.item {
 	margin: 0 10px;
 	height: 70vh;
 }
 
-.slick-prev, .slick-next {
-    display: none;
-}
-
 .slide__first:before {
-    background: #d2e7e9 url("../img/kitchen.jpg") no-repeat center / cover;
+    background: #d2e7e9 url("../img/windows.jpg") no-repeat center / cover;
 }
 
 .slide__second:before {
@@ -369,11 +359,12 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 }
 
 .slide__four:before {
-    background: #d2e7e9 url("../img/img2.jpg") no-repeat center / cover;
+    background: #d2e7e9 url("../img/office.jpg") no-repeat center / cover;
 }
 
-.slick-dots li button:before {
-    font-size: 35px; 
+.owl-prev, .owl-next {
+	width: 80px;
+	height: 40px;
 }
 
 /* ------ Footer ------ */
@@ -665,15 +656,15 @@ textarea {
 
 	.offer__text {
 		font-size: 17px;
-		margin-bottom: 15px;
+		margin: 14px 0 14px 0;
 	}
 
 	.offer__title {
-		font-size: 30px;
+		font-size: 28px;
 	}
 
 	.text {
-		font-size: 28px;
+		font-size: 25px;
 	}
 
 	.proposes, .propous {

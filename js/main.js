@@ -14,23 +14,26 @@ function toggleMenu() {
     menu.classList.toggle('active');
 }
 
-//Slider  
-$('.slider-wrapper').slick({
-	infinite: true,
-    dots: true,
-    autoplay: true,
-    autoplaySpeed: 3000,
-	slidesToShow: 2,
-    responsive: [
-                {
-                  breakpoint: 980,
-                  settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                  }
-                }
-              ]    
-});
+//Slider
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots: false,
+    navText: ["&lang;", "&rang;"],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
+        }
+    }
+})
 
 // Функция Modal Window
 $('.offer__btn').on('click', function () {
