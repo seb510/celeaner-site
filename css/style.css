@@ -83,7 +83,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 
 .menu__list a:hover, .footer-contact a:hover,
  .phone__number:hover, .offer__arrow {
-	color: #54c90c61;
+	color: #8bf06a;
 }
 
 .lighting {
@@ -155,7 +155,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
     width: 75px;
 	height: 75px;
     border-radius: 50%;
-    background-color: #41ec0a;
+    background-color: #8bf06a;
 	/*background-color: #54c90c61;*/
     z-index: -1;
 }
@@ -180,7 +180,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 .menu__list a {
 	display: inline-block;
 	position: relative;
-	top: 30%;
+	top: 35%;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 	padding: 0 25px 45px;
@@ -190,7 +190,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 .menu__list a:after {
 	display: block;
 	content: "";
-	background-color:#54c90c61;
+	background-color:#8bf06a;
 	height: 2px;
 	margin-top: 45px;
 	width: 0;
@@ -278,7 +278,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	font-weight: 600;
 	text-transform: uppercase;
 	background-color: #D4FDBA;
-	border: 1px solid #54c90c61;
+	border: 1px solid #8bf06a;
 	border-radius: 45px;
 	cursor: pointer;
 	transition: all .3s;
@@ -297,7 +297,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	display: block;
     margin: 100px auto 0;
     font-size: 17px;
-    border: solid 1px #54c90c61;
+    border: solid 1px #8bf06a;
     border-radius: 50%;
     text-align: center;
     letter-spacing: -1px;
@@ -312,7 +312,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	margin: 25px auto 0;
 	padding: 25px 20px;
 	border-radius: 55px;
-	border: 1px solid#54c90c61;	
+	border: 1px solid#8bf06a;
 }
 
 .propous__img_icon {
