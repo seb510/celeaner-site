@@ -223,7 +223,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	text-align: center;
 	display: block;
 	background-repeat: no-repeat;
-	top: -25%;
+	top: -35%;
 	left: 0;
 	position: absolute;
 }
@@ -235,7 +235,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 }
 
 .back {
-	margin-top: 115px;
+	margin-top: 95px;
 }
 
 .offer:before {
