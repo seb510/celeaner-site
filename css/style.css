@@ -155,7 +155,8 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
     width: 75px;
 	height: 75px;
     border-radius: 50%;
-    background-color: #54c90c61;
+    background-color: #41ec0a;
+	/*background-color: #54c90c61;*/
     z-index: -1;
 }
 
