@@ -3,8 +3,11 @@
 * {
 	margin: 0;
     padding: 0;
-    box-sizing: border-box;
 	font: 400 14px 'Montserrat', sans-serif;
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
 }
 
 body {
@@ -47,7 +50,7 @@ a, a:hover, a:active {
 }
 
 a, button, input {
-	transition: all 0.8s ease-in-out;
+	transition: all 0.3s ease-in-out;
 	background: transparent;
 	color: #253c2a;
 }
@@ -166,6 +169,11 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 	color: #383838;
+}
+
+.logo__first_little {
+	text-transform: lowercase;
+	font-size: 26px;
 }
 
 .logo__second {
@@ -471,7 +479,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	position: relative;
 	margin: 100px auto 100px;
 	background: #fff;
-	border: 1px solid #D4FDBA;
+	border: 1px solid #8bf06a;
 	border-radius: 25px;
 }
 
@@ -502,9 +510,9 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 }
 
 .window input, textarea {
-	width: 98%;
-	padding: 8px 0;
-	border: 1px solid #C3C3C3;
+	width: 100%;
+	padding: 8px 8px;
+	border: 1px solid #8bf06a;
 	border-radius: 10px;
 }
 
@@ -513,9 +521,26 @@ textarea {
 	height: 110px;
 }
 
-.window__submit {
+input, textarea {
+	font-family:inherit;
+	font-size: inherit;
+	box-shadow: 0 0 10px rgba(210,251,193,0.5);
+
+}
+
+input:focus, textarea:focus {
+	outline: none;
+	box-shadow: 0 0 0 3px #8bf06a;
+}
+
+input.window__submit {
+	cursor: pointer;
 	margin-top: 30px;
 	max-width: 170px;
+}
+
+input.window__submit:hover {
+	background-color: #8bf06a;
 }
 
 /*- /Modal window end -*/
@@ -661,6 +686,7 @@ textarea {
 	.offer__text {
 		font-size: 17px;
 		margin: 14px 0 14px 0;
+		padding: 0 10px;
 	}
 
 	.offer__title {
@@ -723,6 +749,11 @@ textarea {
 	.window__text {
 		font-size: 14px;
 		margin-top: 15px
+	}
+
+	.window__submit {
+		cursor: pointer;
+		background-color: #8bf06a;
 	}
 }
 

@@ -20,7 +20,7 @@
             <div id="navigation" class="navigation d-flex justify-content-between">
                 <div class="logo">
                     <a href="#back" class="logo__round">
-                        <span class="logo__first">Kiwi</span>
+                        <span class="logo__first">K<span class="logo__first_little">i</span>w<span class="logo__first_little">i</span></span>
                     </a>
                     <span class="logo__second">Firma sprzątająca</span>
                 </div>
@@ -228,7 +228,7 @@
             <div class="footer-wrapper d-flex justify-content-around">
                 <a href="#header" class="logo">
                     <span class="logo__round">
-                        <span class="logo__first">Kiwi</span>
+                        <span class="logo__first">K<span class="logo__first_little">i</span>w<span class="logo__first_little">i</span></span>
                     </span>
                     <span class="logo__second">Firma sprzątająca</span>
                 </a> 
@@ -299,7 +299,7 @@
         </div>
         <!--Modal window-->
         <div class="window">
-            <form action="" method="POST" class="window__form">
+            <form id="form" action="mail.php" method="POST" class="window__form">
 			<span class="window__closed">
 				&#10006;
 			</span>
@@ -309,16 +309,16 @@
                 <h5 class="input__title">
                     Imię
                 </h5>
-                <input type="name" name="firstName" placeholder="Tomek" class="window__input">
+                <input type="name" name="name" placeholder="Tomek" class="window__input" required>
                 <h5 class="input__title">
                     E-mail
                 </h5>
-                <input type="email" name="email" placeholder="example@com.pl" class="window__input">
+                <input type="email" name="email" placeholder="example@com.pl" class="window__input" required>
                 <h5 class="input__title">
                     Text
                 </h5>
-                <textarea type="text" name="message" placeholder="Wpisz czym możemy pomóc i termin wykonania. Podaj numer telefonu i godzinę kiedy możemy oddzwonić." class="window__input"></textarea>
-                <input type="submit" value="Pozostawiać" class="window__submit offer__btn">
+                <textarea type="text" name="message" placeholder="Wpisz czym możemy pomóc i termin wykonania. Podaj numer telefonu i godzinę kiedy możemy oddzwonić." class="window__input" required></textarea>
+                <input type="submit" name="submit" value="Pozostawiać" class="window__submit">
             </form>
         </div>
         <!--/Modal window-->
