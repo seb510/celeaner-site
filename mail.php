@@ -7,7 +7,7 @@
     */
     if(isset($_POST['submit'])){
     /* Устанавливаем e-mail Кому и от Кого будут приходить письма */
-    $to = "sebistian@ukr.net"; // Здесь нужно написать e-mail, куда будут приходить письма
+    $to = "tannitti@wp.pl"; // Здесь нужно написать e-mail, куда будут приходить письма
     $from = "sebistian@czystekiwi.com.pl"; // Здесь нужно написать e-mail, от кого будут приходить письма, например no-reply(собака)epicblog.net
 
     /* Указываем переменные, в которые будет записываться информация с формы */
@@ -19,7 +19,7 @@
     /* Проверка правильного написания e-mail адреса */
     if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
     {
-    show_error("<br /> Е-mail адрес не существует");
+    show_error("<br /> Е-mail adres nie istnieje");
     }
 
     /* Переменная, которая будет отправлена на почту со значениями, вводимых в поля */
@@ -34,7 +34,7 @@
 
     /* Отправка сообщения, с помощью функции mail() */
     mail($to, $subject, $mail_to_myemail, $headers . 'Content-type: text/plain; charset=utf-8');
-    echo "Сообщение отправлено. Спасибо Вам " . $name . ", мы скоро свяжемся с Вами.";
-    echo "<br /><br /><a href='http://czystekiwi.com.pl/'>Вернуться на сайт.</a>";
+        echo "Wiadomość wysłana. Dzięki Ci " . $name . ", wkrótce się z Tobą skontaktujemy.";
+    echo "<br /><br /><a href='http://czystekiwi.com.pl/'>Powrót do serwisu.</a>";
     }
  ?>
