@@ -158,8 +158,8 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
     width: 75px;
 	height: 75px;
     border-radius: 50%;
-    background-color: #8bf06a;
-	/*background-color: #54c90c61;*/
+    background-color: #62ed0c61;
+	/*background-color: #8bf06a;*/
     z-index: -1;
 }
 
@@ -241,6 +241,8 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	margin-left: 1px;
 	font-weight: 600;
 	font-size: 17px;
+	padding-bottom: 5px;
+	border-bottom: #8bf06a 1px solid;
 }
 
 .back {
@@ -465,11 +467,11 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 
 .window {
 	position: fixed;
-	z-index: 3;
+	z-index: 10;
 	background: rgba(0, 0, 0, 0.3);
 	width: 100%;
 	height: 100%;
-	top: 5%;
+	top: 0;
 	display: none;
 }
 
