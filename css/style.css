@@ -253,7 +253,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	text-transform: uppercase;
 	margin: 20px auto;
 	font-size: 45px;
-	color: #90ac7f;
+	color: #3d9b04;
 }
 
 .offer__text {
@@ -293,7 +293,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 .offer__btn:hover, .offer__arrow:hover {
 	background-color: #fff;
 	color: #59723f;
-	border: 1px solid #59723f;
+	border: 1px solid #3d9b04;
 }
 
 .offer__arrow {
@@ -359,12 +359,8 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 .info__title {
 	font-size: 37px;
 	text-transform: uppercase;
-	color: #383838;
+	color: #3d9b04;
 	margin: 20px auto;
-}
-
-.info__title_green {
-	color: #89c571;
 }
 
 .slide__first:before {
@@ -592,6 +588,7 @@ input.window__submit:hover {
 	
 	.title {
 		margin: 20px 0;
+		font-size: 19px;
 	}
 	.header,
     .header.sticky {
