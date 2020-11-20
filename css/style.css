@@ -32,11 +32,6 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.6em;
 }
 
-h1 {
-	font-size: 45px;
-	color: #fff;
-}
-
 h2 {
 	font-size: 40px;
 }
@@ -106,6 +101,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
     opacity: .2;
 	z-index: -1;
 }
+
 
 .lighting:before, .slider-wrapper {
 	border-radius: 25px;
@@ -253,11 +249,11 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
     background: #d2e7e9 url("../img/ventanas.jpg") no-repeat top center / cover;
 }
 
-.offer__title {
-	font-size: 40px;
+.main__title {
 	text-transform: uppercase;
-	color: #383838;
 	margin: 20px auto;
+	font-size: 45px;
+	color: #90ac7f;
 }
 
 .offer__text {
@@ -358,6 +354,17 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 .item {
 	margin: 0 10px;
 	height: 60vh;
+}
+
+.info__title {
+	font-size: 37px;
+	text-transform: uppercase;
+	color: #383838;
+	margin: 20px auto;
+}
+
+.info__title_green {
+	color: #89c571;
 }
 
 .slide__first:before {
@@ -570,6 +577,10 @@ input.window__submit:hover {
 	.flex-wrapper {
 		justify-content: space-around;
 	}
+
+	.main__title {
+		font-size: 30px;
+	}
 }
 
 /* 768 - 992 px */
@@ -645,9 +656,9 @@ input.window__submit:hover {
         background: url(../img/close.png) no-repeat center;
         background-size: 25px;
     }
-	
-	.offer__title {
-		font-size: 40px;
+
+	.offer__title__info {
+		font-size: 30px;
 	}
 
 	.text {
@@ -663,6 +674,9 @@ input.window__submit:hover {
 		max-width: 370px;
 	}
 
+	.info__title {
+		font-size: 24px;
+	}
 }
 
 /* 576 - 768 px */
@@ -692,13 +706,7 @@ input.window__submit:hover {
 		padding: 0 10px;
 	}
 
-	.offer__title {
-		font-size: 28px;
-	}
 
-	h2.offer__title {
-		font-size: 25px;
-	}
 	.text {
 		font-size: 23px;
 	}
