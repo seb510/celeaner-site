@@ -1,5 +1,3 @@
-// Скрипт для плавного перехода для якорных ссылок по сайту
-
 //Header scroll
 $("body").on('click', '[href*="#"]', function(e){
     var fixed_offset = 140;
@@ -15,10 +13,7 @@ function toggleMenu() {
     menu.classList.toggle('active');
 }
 
-//Slider
-
 //Ub button
-
 jQuery.extend(jQuery.fn, {
     toplinkwidth: function(){
         var totalContentWidth = jQuery('#content').outerWidth(); // ширина блока с контентом, включая padding
@@ -59,6 +54,7 @@ jQuery(function($){
     });
 });
 
+//Slider
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
