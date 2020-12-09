@@ -54,6 +54,17 @@ jQuery(function($){
     });
 });
 
+jQuery(document).ready(function(){
+    $(document).snowfall({
+        flakeCount: 100,
+        image :"img/snow1.png",
+        minSize: 10,
+        maxSize:20,
+        round: true,
+        shadow: false,
+    });
+});
+
 //Slider
 $('.owl-carousel').owlCarousel({
     loop:true,
@@ -75,7 +86,6 @@ $('.owl-carousel').owlCarousel({
 })
 
 // Функция Modal Window
-
 $('.offer__btn').on('click', function () {
     $('.window').toggle();
 });
