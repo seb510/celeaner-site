@@ -95,14 +95,31 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	background-color: #fff;
     z-index: 10;
     transition: 0.5s;
+
 }
+/* light*/
+
+#gir {
+	position:fixed;
+	top:0;
+	left:0;
+	background-image:url('http://lh5.googleusercontent.com/-obNunPiVVd4/VJOuk2f29_I/AAAAAAAAE3Y/SOoFIrFTTkk/s800/gerljanda1.png');
+	height:36px;
+	width:100%;
+	overflow:hidden;
+	z-index:99
+}
+#nums_1 {padding:100px}
+.gir_1 {background-position: 0 0}
+.gir_2 {background-position: 0 -36px}
+.gir_3 {background-position: 0 -72px}
 
 .navigation {align-items: center;}
-
 .logo {
 	display: flex;
 	align-items: center;
 	font-weight: 600;
+	position: relative;
 }
 
 .header.sticky {
