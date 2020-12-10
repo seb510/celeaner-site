@@ -103,7 +103,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	position:fixed;
 	top:0;
 	left:0;
-	background-image:url('http://lh5.googleusercontent.com/-obNunPiVVd4/VJOuk2f29_I/AAAAAAAAE3Y/SOoFIrFTTkk/s800/gerljanda1.png');
+	background-image:url('../img/gerljanda1.png');
 	height:36px;
 	width:100%;
 	overflow:hidden;
@@ -224,7 +224,11 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	top: 90%;
 	padding: 0;
 }
-#top-link a{display:block;width: 30px;}
+/*#top-link a{display:block;width: 30px;}*/
+#top-link a {
+	display: block;
+	width: 75px;
+}
 
 .back {margin-top: 95px;}
 
