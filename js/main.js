@@ -1,7 +1,7 @@
 //Header scroll
 $("body").on('click', '[href*="#"]', function(e){
     var fixed_offset = 140;
-    $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
+    $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1500);
     e.preventDefault();
 });
 
@@ -58,9 +58,9 @@ jQuery(function($){
 //Snow
 jQuery(document).ready(function(){
     $(document).snowfall({
-        flakeCount: 80,
+        flakeCount: 60,
         image :"img/snow1.png",
-        minSize: 10,
+        minSize: 5,
         maxSize:20,
         round: true,
         shadow: false,
@@ -105,3 +105,8 @@ $('.offer__btn').on('click', function () {
 $('.window__closed').on('click', function () {
     $('.window').hide();
 });
+
+//
+    $('submit').click(function(){
+    window.location.href = "http://www.google.com"
+})

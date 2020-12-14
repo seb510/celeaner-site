@@ -7,8 +7,9 @@
     */
     if(isset($_POST['submit'])){
     /* Устанавливаем e-mail Кому и от Кого будут приходить письма */
-    $to = "tannitti@wp.pl"; // Здесь нужно написать e-mail, куда будут приходить письма
-    $from = "sebistian@czystekiwi.com.pl"; // Здесь нужно написать e-mail, от кого будут приходить письма, например no-reply(собака)epicblog.net
+    /*$to = "tannitti@wp.pl"; // Здесь нужно написать e-mail, куда будут приходить письма*/
+    $to = "nikolaysebistiyan@gmail.com";
+    $from = "sebistian@czystekiwi.com.pl"; // Здесь нужно написать e-mail, от кого будут приходить письма, например no-reply(собака)*
 
     /* Указываем переменные, в которые будет записываться информация с формы */
     $name = $_POST['name'];
@@ -33,8 +34,10 @@
     $headers = "From: $from \r\n";
 
     /* Отправка сообщения, с помощью функции mail() */
+
     mail($to, $subject, $mail_to_myemail, $headers . 'Content-type: text/plain; charset=utf-8');
-        echo "Wiadomość wysłana. Dzięki Ci " . $name . ", wkrótce się z Tobą skontaktujemy.";
-    echo "<br /><br /><a href='http://czystekiwi.com.pl/'>Powrót do serwisu.</a>";
+    header('Location: ../after.html');
+       /* echo "Wiadomość wysłana. Dzięki Ci " . $name . ", wkrótce się z Tobą skontaktujemy.";
+    echo "<br /><br /><a href='http://czystekiwi.com.pl/'>Powrót do serwisu.</a>";*/
     }
  ?>

@@ -84,6 +84,22 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 
 .justify-content-around {justify-content: space-around;}
 
+
+.comeback {
+	display: block;
+	outline: none;
+	margin: 100px auto 0;
+	width: 280px;
+	padding: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-color: #D4FDBA;
+	border: 1px solid #8bf06a;
+	border-radius: 45px;
+	cursor: pointer;
+	transition: all .3s;
+}
+
 /* ------ Header ------ */
 
 .header {
@@ -257,7 +273,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	text-align: center;
 	max-width: 600px;
 	font-family: 'Loved by the King', cursive;
-	font-size: 20px;
+	font-size: 22px;
 }
 
 .offer__btn {
@@ -379,9 +395,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 }
 
 .footer-contact__list li:not(:last-child) {margin-bottom: 10px;}
-
 .footer-contact__item {align-items: center;}
-
 .footer-contact__number {display: flex;flex-direction: column;}
 
 .footer-contact__text {
@@ -589,7 +603,6 @@ input.window__submit:hover {background-color: #8bf06a;}
 	.container {max-width: 576px;}
 
 	.phone {display: none;}
-
 	.phone__menu {display: block;}
 
 	.lighting {
@@ -602,6 +615,9 @@ input.window__submit:hover {background-color: #8bf06a;}
 		font-size: 17px;
 		margin: 14px 0 14px 0;
 		padding: 0 10px;
+	}
+	.offer__text_info {
+		font-size: 20px;
 	}
 
 	.text {font-size: 23px;}
@@ -660,7 +676,7 @@ input.window__submit:hover {background-color: #8bf06a;}
 
 	h3 {font-size: 16px;}
 
-	.window__form {width: 85%;}
+	.window__form {width: 90%;}
 }
 
 
