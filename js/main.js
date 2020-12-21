@@ -107,6 +107,7 @@ $('.window__closed').on('click', function () {
 });
 
 //
-    $('submit').click(function(){
-    window.location.href = "http://www.google.com"
-})
+    
+$('#comback').click(function () {
+    location.href = "https://czystek6iwi.com.pl/";
+});
