@@ -253,6 +253,10 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 
 .back {margin-top: 95px;}
 
+.back-after {
+	max-width: 650px;
+	margin: 98px auto 0;
+}
 .offer:before {
     background: #d2e7e9 url("../img/ventanas.jpg") no-repeat top center / cover;
 }
@@ -261,6 +265,11 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	background: #d2e7e9 url("../img/kiwi.jpg") no-repeat top center / cover;
 }
 
+.main_back_title {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 30px;
+}
 
 .main__title {
 	text-transform: uppercase;
@@ -611,7 +620,9 @@ input.window__submit:hover {background-color: #8bf06a;}
 @media screen and (max-width: 767px) {
 
 	.container {max-width: 576px;}
-
+	.back-after {
+		width: 97%;
+	}
 	.phone {display: none;}
 	.phone__menu {display: block;}
 

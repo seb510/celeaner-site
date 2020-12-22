@@ -76,7 +76,6 @@ function gir() {
 }
 setInterval(function(){gir()}, 500)
 
-
 //Slider
 $('.owl-carousel').owlCarousel({
     loop:true,
@@ -99,15 +98,13 @@ $('.owl-carousel').owlCarousel({
 
 // Функция Modal Window
 $('.offer__btn').on('click', function () {
-    $('.window').toggle();
+    $('.window').fadeIn('slowly');
 });
 
 $('.window__closed').on('click', function () {
-    $('.window').hide();
+    $('.window').hide('slowly');
 });
 
 //
-    
-$('#comback').click(function () {
-    location.href = "https://czystek6iwi.com.pl/";
-});
+
+
