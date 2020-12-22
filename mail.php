@@ -37,7 +37,5 @@
 
     mail($to, $subject, $mail_to_myemail, $headers . 'Content-type: text/plain; charset=utf-8');
     header('Location: ../after.html');
-       /* echo "Wiadomość wysłana. Dzięki Ci " . $name . ", wkrótce się z Tobą skontaktujemy.";
-    echo "<br /><br /><a href='http://czystekiwi.com.pl/'>Powrót do serwisu.</a>";*/
     }
  ?>
