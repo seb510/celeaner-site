@@ -209,7 +209,6 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 
 .menu__list a:hover:after,
 .menu__list a:focus:after {width: 100%;}
-
 .phone__menu {display: none;}
 
 .phone {
@@ -252,7 +251,6 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 }
 
 .back {margin-top: 95px;}
-
 .back-after {
 	max-width: 650px;
 	margin: 98px auto 0;
@@ -359,9 +357,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 /* ------ Information ------ */
 
 .information {padding: 0 0 25px 0;}
-
 .flex-wrapper {display: flex;justify-content: center;}
-
 .item {margin: 0 10px;height: 60vh;}
 
 .info__title {
@@ -372,13 +368,9 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 }
 
 .slide__first:before {background: #d2e7e9 url("../img/windows.jpg") no-repeat center / cover;}
-
 .slide__second:before {background: #d2e7e9 url("../img/ofice.jpg") no-repeat center / cover;}
-
 .slide__third:before {background: #d2e7e9 url("../img/kiwiroom.png") no-repeat center / cover;}
-
 .slide__four:before {background: #d2e7e9 url("../img/office.jpg") no-repeat center / cover;}
-
 .owl-prev, .owl-next {
 	width: 80px;
 	height: 40px;
@@ -387,7 +379,6 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 /* ------ Footer ------ */
 
 .footer {padding: 50px 0;}
-
 .footer-title {
 	font-weight: 700;
 	letter-spacing: 0.03em;
@@ -407,7 +398,6 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 }
 
 .footer-title {text-align: center;}
-
 .footer-list {
 	font-size: 15px;
 	letter-spacing: 0.01em;
@@ -437,14 +427,12 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 }
 
 .footer-wrap__link{font-size: 18px;}
-
 .footer-line {
 	margin-top: 30px;
 	text-align: center;
 }
 
 .footer-line__row {border-top: 1px solid #C4C4C4;}
-
 .footer-line__info {margin-top: 20px;}
 
 /*- Modal window -*/
