@@ -102,7 +102,7 @@ $('.offer__btn').on('click', function () {
 });
 
 $('.window__closed').on('click', function () {
-    $('.window').hide('slowly');
+    $('.window').slideUp('slowly');
 });
 
 //
