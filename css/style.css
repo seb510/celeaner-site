@@ -241,7 +241,7 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	display:none; /* скрываем блок с кнопкой, т.к. отображать надо только при прокрутке */
 	position:fixed; /* фиксируем расположение */
 	left: 81%;
-	top: 84%;
+	top: 85%;
 	padding: 0;
 }
 
