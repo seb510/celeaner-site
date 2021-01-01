@@ -55,15 +55,13 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 }
 .text {font-size: 42px;}
 
-.menu__list a:hover, .footer-contact a:hover,
- .phone__number:hover, .offer__arrow {color: #8bf06a;}
+.menu__list a:hover, .footer-contact a:hover, .phone__number:hover, .offer__arrow {color: #8bf06a;}
 
 .lighting {
 	position: relative;
 	text-align: center;
 	padding: 100px 0 40px;
 }
-
 .lighting:before {
     content: '';
     position: absolute;
@@ -79,11 +77,8 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 .lighting:before, .slider-wrapper {border-radius: 25px;}
 
 .d-flex {display: flex;}
-
 .justify-content-between {justify-content: space-between;}
-
 .justify-content-around {justify-content: space-around;}
-
 
 .comeback {
 	display: block;
@@ -116,24 +111,26 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	background-color: #fff;
     z-index: 10;
     transition: 0.5s;
-
 }
-/* light*/
 
-#gir {
-	position:fixed;
-	top:0;
-	left:0;
-	background-image:url('../img/gerljanda1.png');
-	height:36px;
-	width:100%;
-	overflow:hidden;
-	z-index:99
-}
-#nums_1 {padding:100px}
-.gir_1 {background-position: 0 0}
-.gir_2 {background-position: 0 -36px}
-.gir_3 {background-position: 0 -72px}
+.happy {
+	max-width:1275px;
+	position:relative;
+	margin: 0 auto;
+  }
+  .new-year {
+	position:absolute;
+	width: 135px;
+	top: -55px;
+  }
+  
+  .new-year-right {
+	right: -50px;
+  }
+  
+  .new-year-left {
+	left: -50px;
+  }
 
 .navigation {align-items: center;}
 .logo {
@@ -600,7 +597,6 @@ input.window__submit:hover {background-color: #8bf06a;}
 
 /* 576 - 768 px */
 @media screen and (max-width: 767px) {
-
 	.container {max-width: 576px;}
 	.back-after {
 		width: 97%;
@@ -653,18 +649,13 @@ input.window__submit:hover {background-color: #8bf06a;}
 	}
 
 	.footer-contact {margin: 20px 0;}
-
 	.window__form {
 		max-width: 415px;
 		padding: 35px 30px;
 	}
-
 	.window__title {font-size: 20px;}
-
 	.input__title {margin-top: 20px;}
-
 	.window__text {font-size: 14px;margin-top: 15px}
-
 	.window__submit {
 		cursor: pointer;
 		background-color: #8bf06a;
@@ -673,13 +664,11 @@ input.window__submit:hover {background-color: #8bf06a;}
 
 /* 320 - 576 px */
 @media screen and (max-width: 576px) {
+	
 	.container {max-width: none;padding: 0 10px;}
-
 	.logo__second {margin: 0 0 0 10px;}
-
 	h3 {font-size: 16px;}
-
-	.window__form {width: 90%;}
+	.window__form {width: 93%;}
 }
 
 
