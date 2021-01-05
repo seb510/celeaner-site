@@ -335,6 +335,10 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	border: 1px solid#8bf06a;
 }
 
+.proposes-item {
+	width: 412px;
+}
+
 .propous__img_icon {
     width: 100px;
     height: 130px;
@@ -629,6 +633,11 @@ input.window__submit:hover {background-color: #8bf06a;}
 		max-width: 95%;
 		padding: 5px 10px;
 		margin: 10px auto;
+	}
+
+	.proposes-item {
+		width: 100%;
+		min-height: 200px;
 	}
 
 	.propous__info {
