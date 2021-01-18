@@ -113,25 +113,6 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
     transition: 0.5s;
 }
 
-.happy {
-	max-width:1275px;
-	position:relative;
-	margin: 0 auto;
-  }
-  .new-year {
-	position:absolute;
-	width: 135px;
-	top: -55px;
-  }
-  
-  .new-year-right {
-	right: -50px;
-  }
-  
-  .new-year-left {
-	left: -50px;
-  }
-
 .navigation {align-items: center;}
 .logo {
 	display: flex;
@@ -232,20 +213,34 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 	border-bottom: #8bf06a 1px solid;
 }
 
-/*up button*/
-#top-link{
-	cursor:pointer; /* изменяем указатель мыши при наведении на блок */
-	display:none; /* скрываем блок с кнопкой, т.к. отображать надо только при прокрутке */
-	position:fixed; /* фиксируем расположение */
-	left: 81%;
-	top: 85%;
-	padding: 0;
-}
+/* up button */
+#button {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	transition: background-color .3s, 
+	  opacity .5s, visibility .5s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000;
+  }
+  
+  #button img:hover {
+	cursor: pointer;
+	filter: invert(33%); ;
+  }
+  
+  #button.show {
+	opacity: 1;
+	visibility: visible;
+  }
+  
 
-#top-link a {
-	display: block;
-	width: 75px;
-}
+/* end up button */
 
 .back {margin-top: 95px;}
 .back-after {
@@ -673,14 +668,17 @@ input.window__submit:hover {background-color: #8bf06a;}
 
 /* 320 - 576 px */
 @media screen and (max-width: 576px) {
-	
 	.container {max-width: none;padding: 0 10px;}
 	.logo__second {margin: 0 0 0 10px;}
 	h3 {font-size: 16px;}
 	.window__form {width: 93%;}
 }
 
+@media (min-width: 500px) {
 
-
+	#button {
+	  margin: 30px;
+	}
+  }
 
 
