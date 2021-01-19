@@ -419,8 +419,12 @@ button, button:hover, button:focus, button:active, .slick-initialized .slick-sli
 .footer-wrap__item img {
 	width: 60px;
 	height: 58px;
+	transition: ease all 0.3s;
 }
 
+.footer-wrap__item img:hover {
+	filter: invert(48%);
+}
 .footer-wrap__link{font-size: 18px;}
 .footer-line {
 	margin-top: 30px;
