@@ -6,13 +6,18 @@ $("body").on('click', '[href*="#"]', function(e){
 });
 
 //Navigation menu
-function toggleMenu() {
+document.querySelector('.menu__btn').addEventListener('click', function(){
+    document.querySelector('.menu__btn span').classList.toggle('active');
+    document.querySelector('.menu').classList.toggle("animate");
+  });
+
+/*function toggleMenu() {
     let menuToggle = document.querySelector('.toggle');
     let menu = document.querySelector('.menu');
     menuToggle.classList.toggle('active');
     menu.classList.toggle('active');
 }
-
+*/
 //Ub button
 var btn = $('#button');
 
