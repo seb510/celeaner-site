@@ -1,7 +1,6 @@
 /* ------ Specification ------ */
 
 @import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +15,6 @@
 
 body {
     color: #383838;
-    overflow: hidden;
 }
 
 p {
@@ -447,7 +445,6 @@ button:active,
         bottom: 0;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     }
-
     100% {
         bottom: 50px;
         box-shadow: 0 50px 50px rgba(0, 0, 0, 0.1);
