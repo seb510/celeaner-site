@@ -118,8 +118,12 @@ button:active,
     right: 0;
     bottom: 0;
     display: block;
-    opacity: .2;
+    opacity: .6;
     z-index: -1;
+}
+
+.offer.lighting:before {
+    opacity: .2;
 }
 
 .lighting:before,
