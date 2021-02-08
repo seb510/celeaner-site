@@ -37,9 +37,13 @@
         padding: 20px 30px;
         z-index: 10
     }
+    .phone {
+        margin: 0 25px 0 0;
+    }
     .menu__btn {
         display: block;
         cursor: pointer;
+        top: 35px;
     }
     .menu {
         width: 98%;
@@ -91,6 +95,9 @@
     .back {
         padding-bottom: 20px;
     }
+    .service__text {
+        width: 100%;
+    }
     .propous {
         padding: 15px 10px;
         max-width: 370px;
@@ -123,14 +130,13 @@
     }
     .offer__text {
         font-size: 17px;
-        margin: 14px 0 14px 0;
         padding: 0 10px;
-    }
-    .offer__text_info {
-        font-size: 20px;
     }
     .text {
         font-size: 23px;
+    }
+    .service__text {
+        font-size: 17px;
     }
     .proposes,
     .propous {
@@ -138,7 +144,7 @@
     }
     .propous {
         max-width: 95%;
-        margin: 10px auto;
+        margin: 20px auto;
         min-height: 200px;
     }
     .proposes-item {
@@ -191,11 +197,21 @@
         max-width: none;
         padding: 0 10px;
     }
-    .logo__second {
-        margin: 0 0 0 10px;
+    .logo {
+        width: 180px;
+    }
+    .offer__text_info {
+        width: 100%;
     }
     h3 {
         font-size: 16px;
+    }
+    .footer-contact__text {
+        max-width: 210px;
+    }
+    .footer-wrap__item img {
+        width: 40px;
+        height: 40px;
     }
     .window__form {
         width: 93%;
