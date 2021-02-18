@@ -64,6 +64,3 @@ $('.offer__btn').on('click', function() {
 $('.window__closed').on('click', function() {
     $('.window').slideUp('slowly');
 });
-$('.window__closed').on('click', function() {
-    $('.window').slideUp('slowly');
-});

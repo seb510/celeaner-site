@@ -403,17 +403,33 @@ button:active,
     border: 1px solid #8bf06a;
     border-radius: 45px;
     cursor: pointer;
-    animation: bouncing 0.9s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
+    position: relative;
+
+}   
+
+.btn::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 6px solid #8bf06a;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.9s infinite;
 }
 
-@keyframes bouncing {
+@keyframes ring {
     0% {
-        bottom: 0;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        width: 30px;
+        height: 30px;
+        opacity: 1;
     }
     100% {
-        bottom: 50px;
-        box-shadow: 0 50px 50px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        height: 300px;
+        opacity: 0;
     }
 }
 
@@ -424,6 +440,9 @@ button:active,
     border: 1px solid #3d9b04;
 }
 
+.btn:hover , .btn:after{
+    animation-play-state:  ring paused;
+}
 .offer__arrow {
     width: 40px;
     height: 40px;
@@ -619,7 +638,6 @@ button:active,
 
 
 /*- Modal window -*/
-
 .window {
     position: fixed;
     z-index: 10;
@@ -670,6 +688,7 @@ button:active,
 .window input,
 textarea {
     width: 100%;
+    margin-top: 7px;
     padding: 8px 8px;
     border: 1px solid #8bf06a;
     border-radius: 10px;
@@ -695,13 +714,13 @@ textarea:focus {
 
 input.window__submit {
     cursor: pointer;
-    margin-top: 30px;
+    display: block;
     max-width: 170px;
+    margin: 30px auto 0;
 }
 
 input.window__submit:hover {
     background-color: #8bf06a;
 }
-
 
 /*- /Modal window end -*/
