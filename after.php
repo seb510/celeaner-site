@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pl" prefix="og: http://ogp.me/ns#" />
-
+<?php
+    $name = $_GET['name'];
+?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +13,6 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-
 </head>
 
 <body>
@@ -19,8 +20,8 @@
     <section id="back" class="back back-after">
         <div class="container-block">
             <div class="offer offer-after lighting">
-                <p class="main_back_title">Wiadomość wysłana. Dzięki Ci wkrótce się z Tobą skontaktujemy.</p>
-                <a href="index.html" id="comeback" class="comeback">Powrót do serwisu</a>
+                <p class="main_back_title">Wiadomość wysłana. Dzięki Ci <?= $name ?>, wkrótce się z Tobą skontaktujemy.</p>
+                <a href="index.php" id="comeback" class="comeback">Powrót do serwisu</a>
             </div>
             <ul class="footer-wrap__soc">
                 <li class="footer-wrap__item">

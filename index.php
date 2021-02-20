@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pl" prefix="og: http://ogp.me/ns#" />
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -266,9 +265,7 @@
     </footer>
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="js/snowfall.js"></script>
     <script src="js/main.js"></script>
-
 </body>
 
 </html>

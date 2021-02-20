@@ -36,6 +36,6 @@
     /* Отправка сообщения, с помощью функции mail() */
 
     mail($to, $subject, $mail_to_myemail, $headers . 'Content-type: text/plain; charset=utf-8');
-    header('Location: ../after.html');
+    header('Location: ../after.php?name=' . $name);
     }
  ?>
