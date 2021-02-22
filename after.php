@@ -20,7 +20,7 @@
     <section id="back" class="back back-after">
         <div class="container-block">
             <div class="offer offer-after lighting">
-                <p class="main_back_title">Wiadomość wysłana. Dzięki Ci <?= $name ?>, wkrótce się z Tobą skontaktujemy.</p>
+                <p class="main_back_title">Wiadomość wysłana. Dzięki Ci <span class="user_name"> <?= $name ?> </span>, wkrótce się z Tobą skontaktujemy.</p>
                 <a href="index.php" id="comeback" class="comeback">Powrót do serwisu</a>
             </div>
             <ul class="footer-wrap__soc">

@@ -121,6 +121,7 @@ button:active,
     z-index: -1;
 }
 
+/** After **/
 .offer.lighting:before {
     opacity: .2;
 }
@@ -164,6 +165,11 @@ button:active,
     color: #fff;
 }
 
+.user_name {
+    font-weight: 800;
+    font-size: 27px;
+    color: #63a24f
+}
 
 /* ------ Header ------ */
 
